@@ -25,6 +25,16 @@ namespace LibFfmpeg
 			return this;
 		}
 
+		public FfmpegWrapper AddCommands(params FfmpegCommand[] commands)
+		{
+			foreach (var command in commands)
+			{
+				AddCommand(command);
+			}
+
+			return this;
+		}
+
 		public void ExecuteCommands()
 		{
 			StandardOutput = new StringBuilder();
@@ -32,6 +42,8 @@ namespace LibFfmpeg
 
 			// Need a command builder
 			var command = string.Join(" ", Commands.Select(c => $"{c.Switch} {c.Argument}"));
+
+			Console.WriteLine($"Command: {command}");
 
 			var process = new Process();
 			process.StartInfo.FileName = Path;

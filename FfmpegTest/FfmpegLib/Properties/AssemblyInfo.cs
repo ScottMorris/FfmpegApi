@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("LibFfmpeg")]
+[assembly: AssemblyTitle("FfmpegLib")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("LibFfmpeg")]
+[assembly: AssemblyProduct("FfmpegLib")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("f38a0788-b036-4470-a474-ee5c1ad6e05a")]
+[assembly: Guid("f4bb4612-c533-4b40-be5d-18164561f077")]
 
 // Version information for an assembly consists of the following four values:
 //
